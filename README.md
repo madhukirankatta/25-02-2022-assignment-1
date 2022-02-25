@@ -1,1 +1,9 @@
 # 25-02-2022-assignment-1
+#program to print +ve numbers in first pos and -ve in second pos.
+n=int(input('enter value: '))
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+l.sort(reverse=True)
+print(l)
